@@ -100,6 +100,55 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>ts</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>pw test</string>
+				<key>script</key>
+				<string>python3 test.py "${1}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>test</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>76F6B65B-12B3-4A04-8508-8AE8FCCFB3C2</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
@@ -196,6 +245,27 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>bs</string>
+				<key>subtext</key>
+				<string>This TKR might cause problems</string>
+				<key>text</key>
+				<string>BamSEC</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>138CCEBA-936E-4D0A-B8FF-7F16578DBB40</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -268,27 +338,6 @@
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>bs</string>
-				<key>subtext</key>
-				<string>This TKR might cause problems</string>
-				<key>text</key>
-				<string>BamSEC</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>138CCEBA-936E-4D0A-B8FF-7F16578DBB40</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
 	</array>
 	<key>readme</key>
 	<string></string>
@@ -299,14 +348,14 @@
 			<key>xpos</key>
 			<real>540</real>
 			<key>ypos</key>
-			<real>540</real>
+			<real>655</real>
 		</dict>
 		<key>138CCEBA-936E-4D0A-B8FF-7F16578DBB40</key>
 		<dict>
 			<key>xpos</key>
-			<real>205</real>
+			<real>210</real>
 			<key>ypos</key>
-			<real>670</real>
+			<real>530</real>
 		</dict>
 		<key>1B9713BC-F73F-40CD-B199-8CCBC7230B1E</key>
 		<dict>
@@ -320,7 +369,7 @@
 			<key>xpos</key>
 			<real>380</real>
 			<key>ypos</key>
-			<real>540</real>
+			<real>655</real>
 		</dict>
 		<key>68AA4BC8-98D8-4672-B8E6-0E8F65C632B0</key>
 		<dict>
@@ -336,12 +385,19 @@
 			<key>ypos</key>
 			<real>405</real>
 		</dict>
+		<key>76F6B65B-12B3-4A04-8508-8AE8FCCFB3C2</key>
+		<dict>
+			<key>xpos</key>
+			<real>195</real>
+			<key>ypos</key>
+			<real>140</real>
+		</dict>
 		<key>E0907A82-434E-4F45-BF8F-4A35EA31C9AC</key>
 		<dict>
 			<key>xpos</key>
 			<real>210</real>
 			<key>ypos</key>
-			<real>540</real>
+			<real>655</real>
 		</dict>
 		<key>E71B96EA-C701-4E37-B86A-573C1BF0F172</key>
 		<dict>
