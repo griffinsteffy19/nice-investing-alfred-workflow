@@ -1,13 +1,9 @@
 import sys
-import json
 
 query = sys.argv[1]
 
-f = open('tkrData.json')
-tkrData = json.load(f)
-
 try:
-    sys.stdout.write(tkrData[query.upper()]['bsURL'])
+    sys.stdout.write('https://www.bamsec.com/entity-search/search?q='+query)
 except:
     if ('' == query):
         sys.stdout.write('https://www.bamsec.com')

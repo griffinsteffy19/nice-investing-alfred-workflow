@@ -27,6 +27,10 @@ def getCIK(ticker):
     except:
         return None
 
+#Open existing tkr data
+done_f = open('tkrData_6200.json')
+tkrData_6200 = json.load(done_f)
+
 # Check whether the tkrFiles folder exists or not
 #   Create folder if it doesn't exist
 path = 'tkrFiles/'
@@ -37,6 +41,7 @@ if(False == isExist):
 # Setup Data for processing TKRs
 allTkrData = {}
 allTkrFilterData=[]
+badXCngData = {}
 start = 1
 tkrCt = 1
 tkrTotal = len(tkrDF[0])
@@ -47,58 +52,72 @@ for symbol in tkrDF[0]:
     if tkrCt >= start:
         # Convert symbol to uppercase
         Symbol = str(symbol).upper()
-        print("("+str(tkrCt)+"/"+str(tkrTotal)+") Getting Data for: "+Symbol)
-        tkrJson = {}
-        tkrData = yf.Ticker(Symbol)
-        try:
-            # Convert exchange to RO Toolbox friendly
-            match(tkrData.info['exchange']):
-                case "ASE":
-                    tkrJson['exchange'] = "AMEX"
-                case "NMS":
-                    tkrJson['exchange'] = "NAS"
-                case "NYQ":
-                    tkrJson['exchange'] = "NYS"
-                case _:
-                    tkrJson['exchange'] = None
-            
-            # If an exchange we were familiar with showed up, then contine to process the tkr info
-            if(None != tkrJson['exchange']):
-
-                tkrJson['shortName'] = tkrData.info['shortName']
-                tkrJson['longName'] = tkrData.info['longName']
+        if( Symbol not in tkrData_6200 ):
+            print("("+str(tkrCt)+"/"+str(tkrTotal)+") Getting Data for: "+Symbol)
+            tkrJson = {}
+            tkrData = yf.Ticker(Symbol)
+            try:
+                # Convert exchange to RO Toolbox friendly
+                match(tkrData.info['exchange']):
+                    case "ASE":
+                        tkrJson['exchange'] = "AMEX"
+                    case "NMS":
+                        tkrJson['exchange'] = "NAS"
+                    case "NCM":
+                        tkrJson['exchange'] = "NAS"
+                    case "NGM":
+                        tkrJson['exchange'] = "NAS"
+                    case "NYQ":
+                        tkrJson['exchange'] = "NYS"
+                    case "PCX":
+                        tkrJson['exchange'] = "TSE"
+                    case _:
+                        tkrJson['exchange'] = None
                 
-                # Create a url-friendly name for the BamSEC link
-                bsName = tkrJson['longName'].replace(" ", "-")
-                bsName = bsName.replace("Inc.", "Inc")
-                bsName = bsName.replace("Corp.", "Corp")
-                bsName = bsName.replace(".", "-")
-                bsName = bsName.replace(",", "")
-                bsName = bsName.replace("&-", "")
-                bsName = bsName.replace("&", "-")
-                bsName = bsName.replace("'", "-")
-                bsName = bsName.replace("The-", "")
-                bsName = bsName.replace("Corporation", "Co")
-                bsName = bsName.lower()
-                bsName = bsName.replace("--", "-")
-                if ('-' == bsName[-1:]):
-                    bsName = bsName + "1"
+                # If an exchange we were familiar with showed up, then contine to process the tkr info
+                if(None != tkrJson['exchange']):
 
-                tkrJson['cik'] = getCIK(Symbol)
-                tkrJson['roURL'] = "https://ruleonetoolbox.com/ticker/" + \
-                    tkrJson['exchange']+":"+Symbol+"/company/brief"
-                tkrJson['bsURL'] = "https://www.bamsec.com/companies/" + \
-                    str(tkrJson['cik'])+"/"+bsName
-                allTkrData[Symbol] = tkrJson
-                tkrFilterData = [Symbol, tkrJson['shortName'], Symbol]
-                allTkrFilterData.append(tkrFilterData)
-            else:
-                print("\t->Discarding due to the exchange: "+tkrData.info['exchange'])
+                    tkrJson['shortName'] = tkrData.info['shortName']
+                    tkrJson['longName'] = tkrData.info['longName']
+                    
+                    # Create a url-friendly name for the BamSEC link
+                    bsName = tkrJson['longName'].replace(" ", "-")
+                    bsName = bsName.replace("Inc.", "Inc")
+                    bsName = bsName.replace("Corp.", "Corp")
+                    bsName = bsName.replace(".", "-")
+                    bsName = bsName.replace(",", "")
+                    bsName = bsName.replace("&-", "")
+                    bsName = bsName.replace("&", "-")
+                    bsName = bsName.replace("'", "-")
+                    bsName = bsName.replace("The-", "")
+                    bsName = bsName.replace("Corporation", "Co")
+                    bsName = bsName.lower()
+                    bsName = bsName.replace("--", "-")
+                    if ('-' == bsName[-1:]):
+                        bsName = bsName + "1"
+
+                    tkrJson['cik'] = getCIK(Symbol)
+                    tkrJson['roURL'] = "https://ruleonetoolbox.com/ticker/" + \
+                        tkrJson['exchange']+":"+Symbol+"/company/brief"
+                    tkrJson['bsURL'] = "https://www.bamsec.com/companies/" + \
+                        str(tkrJson['cik'])+"/"+bsName
+                    allTkrData[Symbol] = tkrJson
+                    tkrFilterData = [Symbol, tkrJson['shortName'], Symbol]
+                    allTkrFilterData.append(tkrFilterData)
+                else:
+                    print("\t->Discarding due to the exchange: "+tkrData.info['exchange'])
+                    if(tkrData.info['exchange'] in badXCngData):
+                        badXCngData[tkrData.info['exchange']].append([Symbol, tkrData.info['longName']])
+                    else:
+                        newBadXCng = []
+                        newBadXCng.append([Symbol, tkrData.info['longName']])
+                        badXCngData[tkrData.info['exchange']] = newBadXCng
+                
+            except:
+                print("\t->Discarding due to the exchange: ERROR in tkr.info['exchange']")
+        else:
+            print("("+str(tkrCt)+"/"+str(tkrTotal)+") Skipping Data for: "+Symbol)
             
-        except:
-            print("\t->Discarding due to the exchange: ERROR in tkr.info['exchange']")
-        
-        tkrCt = tkrCt + 1
         if(0 == (tkrCt %100)):
             # Every 100 TKRs, save data to a specific file in case something happens later down the line
             f = open('tkrFiles/tkrData_'+str(tkrCt)+'.json', "w", encoding="utf8")
@@ -111,6 +130,13 @@ for symbol in tkrDF[0]:
             writer.writerows(allTkrFilterData)
             filterCSV.close()
 
+            badXCngFile = open('tkrFiles/badXCng_'+str(tkrCt)+'.json', "w", encoding="utf8")
+            badXCngJsonData = json.dumps(badXCngData)
+            badXCngFile.write(badXCngJsonData)
+            badXCngFile.close()
+    
+    tkrCt = tkrCt + 1
+
 f = open('tkrData.json', "w", encoding="utf8")
 json_data = json.dumps(allTkrData)
 f.write(json_data)
@@ -121,28 +147,8 @@ writer = csv.writer(filterCSV)
 writer.writerows(allTkrFilterData)
 filterCSV.close()
 
+done_f.close()
 
 # AMEX = ASE
 # NASDAQ = NMS
 # NYSE = NYQ
-
-
-#JNJ
-#JPM
-#PG
-#MA
-#HD
-#DIS
-#KO
-#T
-#ASML
-#MCD
-#SAP
-#LOW
-#BA
-#WFC
-
-#RTX
-#MS
-#AMT
-#TD
