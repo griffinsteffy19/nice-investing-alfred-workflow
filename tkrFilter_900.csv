@@ -1,0 +1,690 @@
+AAPL,Apple Inc.,AAPL
+MSFT,Microsoft Corporation,MSFT
+AMZN,"Amazon.com, Inc.",AMZN
+GOOG,Alphabet Inc.,GOOG
+FB,"Meta Platforms, Inc.",FB
+BABA,Alibaba Group Holding Limited,BABA
+BRK-A,Berkshire Hathaway Inc.,BRK-A
+TSLA,"Tesla, Inc.",TSLA
+V,Visa Inc.,V
+TSM,Taiwan Semiconductor Manufactur,TSM
+WMT,Walmart Inc.,WMT
+JNJ,Johnson & Johnson,JNJ
+JPM,JP Morgan Chase & Co.,JPM
+PG,Procter & Gamble Company (The),PG
+MA,Mastercard Incorporated,MA
+NVDA,NVIDIA Corporation,NVDA
+SPY,SPDR S&P 500,SPY
+UNH,UnitedHealth Group Incorporated,UNH
+HD,"Home Depot, Inc. (The)",HD
+DIS,Walt Disney Company (The),DIS
+VZ,Verizon Communications Inc.,VZ
+CRM,"Salesforce, Inc.",CRM
+BAC,Bank of America Corporation,BAC
+KO,Coca-Cola Company (The),KO
+CMCSA,Comcast Corporation,CMCSA
+ADBE,Adobe Inc.,ADBE
+PYPL,"PayPal Holdings, Inc.",PYPL
+NFLX,"Netflix, Inc.",NFLX
+NKE,"Nike, Inc.",NKE
+MRK,"Merck & Company, Inc.",MRK
+T,AT&T Inc.,T
+PFE,"Pfizer, Inc.",PFE
+ORCL,Oracle Corporation,ORCL
+PEP,"Pepsico, Inc.",PEP
+NVS,Novartis AG,NVS
+ABT,Abbott Laboratories,ABT
+TM,Toyota Motor Corporation,TM
+INTC,Intel Corporation,INTC
+TMO,Thermo Fisher Scientific Inc,TMO
+ASML,ASML Holding N.V. - New York Re,ASML
+ABBV,AbbVie Inc.,ABBV
+CSCO,"Cisco Systems, Inc.",CSCO
+ORCL,Oracle Corporation,ORCL
+COST,Costco Wholesale Corporation,COST
+QCOM,QUALCOMM Incorporated,QCOM
+CVX,Chevron Corporation,CVX
+PDD,Pinduoduo Inc.,PDD
+DHR,Danaher Corporation,DHR
+TMUS,"T-Mobile US, Inc.",TMUS
+MCD,McDonald's Corporation,MCD
+XOM,Exxon Mobil Corporation,XOM
+AVGO,Broadcom Inc.,AVGO
+NVO,Novo Nordisk A/S,NVO
+UL,Unilever PLC,UL
+ACN,Accenture plc,ACN
+LFC,China Life Insurance Company Li,LFC
+MDT,Medtronic plc.,MDT
+NEE,"NextEra Energy, Inc.",NEE
+TXN,Texas Instruments Incorporated,TXN
+UPS,"United Parcel Service, Inc.",UPS
+HON,Honeywell International Inc.,HON
+AZN,Astrazeneca PLC,AZN
+SAP,SAP  SE,SAP
+BMY,Bristol-Myers Squibb Company,BMY
+UNP,Union Pacific Corporation,UNP
+LLY,Eli Lilly and Company,LLY
+BHP,BHP Group Limited,BHP
+JD,"JD.com, Inc.",JD
+LIN,Linde plc,LIN
+AMGN,Amgen Inc.,AMGN
+CHTR,"Charter Communications, Inc.",CHTR
+BUD,Anheuser-Busch Inbev SA Sponsor,BUD
+SNY,Sanofi,SNY
+PM,Philip Morris International Inc,PM
+ZM,"Zoom Video Communications, Inc.",ZM
+SHOP,Shopify Inc.,SHOP
+QQQ,"Invesco QQQ Trust, Series 1",QQQ
+SBUX,Starbucks Corporation,SBUX
+LOW,"Lowe's Companies, Inc.",LOW
+RY,Royal Bank Of Canada,RY
+BA,Boeing Company (The),BA
+PTR,PetroChina Company Limited,PTR
+C,"Citigroup, Inc.",C
+WFC,Wells Fargo & Company,WFC
+RTX,Raytheon Technologies Corporati,RTX
+MS,Morgan Stanley,MS
+AMT,American Tower Corporation (REI,AMT
+LMT,Lockheed Martin Corporation,LMT
+HSBC,"HSBC Holdings, plc.",HSBC
+IBM,International Business Machines,IBM
+HDB,HDFC Bank Limited,HDB
+AMD,"Advanced Micro Devices, Inc.",AMD
+BLK,"BlackRock, Inc.",BLK
+NOW,"ServiceNow, Inc.",NOW
+MMM,3M Company,MMM
+INTU,Intuit Inc.,INTU
+TD,Toronto Dominion Bank (The),TD
+CAT,"Caterpillar, Inc.",CAT
+DEO,Diageo plc,DEO
+GSK,GSK plc,GSK
+AXP,American Express Company,AXP
+FIS,Fidelity National Information S,FIS
+SCHW,Charles Schwab Corporation (The,SCHW
+SYK,Stryker Corporation,SYK
+EL,"Estee Lauder Companies, Inc. (T",EL
+UBER,"Uber Technologies, Inc.",UBER
+CVS,CVS Health Corporation,CVS
+SQ,"Block, Inc.",SQ
+ISRG,"Intuitive Surgical, Inc.",ISRG
+BTI,British American Tobacco  Indus,BTI
+TGT,Target Corporation,TGT
+GE,General Electric Company,GE
+SE,Sea Limited,SE
+MDLZ,"Mondelez International, Inc.",MDLZ
+BKNG,Booking Holdings Inc. Common St,BKNG
+SPGI,S&P Global Inc.,SPGI
+DE,Deere & Company,DE
+ZTS,Zoetis Inc.,ZTS
+RIO,Rio Tinto Plc,RIO
+ANTM,"Anthem, Inc.",ANTM
+CNI,Canadian National Railway Compa,CNI
+GS,"Goldman Sachs Group, Inc. (The)",GS
+GILD,"Gilead Sciences, Inc.",GILD
+CTA-PA,E.I. du Pont de Nemours and Com,CTA-PA
+FISV,"Fiserv, Inc.",FISV
+ADP,"Automatic Data Processing, Inc.",ADP
+MO,"Altria Group, Inc.",MO
+CI,Cigna Corporation,CI
+PLD,"Prologis, Inc.",PLD
+TJX,"TJX Companies, Inc. (The)",TJX
+FDX,FedEx Corporation,FDX
+SNOW,Snowflake Inc.,SNOW
+CL,Colgate-Palmolive Company,CL
+CCI,Crown Castle Inc.,CCI
+SNP,China Petroleum & Chemical Corp,SNP
+AMAT,"Applied Materials, Inc.",AMAT
+CSX,CSX Corporation,CSX
+MU,"Micron Technology, Inc.",MU
+MELI,"MercadoLibre, Inc.",MELI
+BEKE,KE Holdings Inc,BEKE
+BDX,"Becton, Dickinson and Company",BDX
+DUK,Duke Energy Corporation (Holdin,DUK
+NIO,NIO Inc.,NIO
+CB,Chubb Limited,CB
+SHW,Sherwin-Williams Company (The),SHW
+BP,BP p.l.c.,BP
+ITW,Illinois Tool Works Inc.,ITW
+VALE,VALE S.A.,VALE
+USB,U.S. Bancorp,USB
+EQIX,"Equinix, Inc.",EQIX
+D,"Dominion Energy, Inc.",D
+SO,Southern Company (The),SO
+TFC,Truist Financial Corporation,TFC
+SNAP,Snap Inc.,SNAP
+LRCX,Lam Research Corporation,LRCX
+INFY,Infosys Limited,INFY
+VMW,"Vmware, Inc.",VMW
+BAM,Brookfield Asset Management Inc,BAM
+NSC,Norfolk Southern Corporation,NSC
+GM,General Motors Company,GM
+ECL,Ecolab Inc.,ECL
+APD,"Air Products and Chemicals, Inc",APD
+CME,CME Group Inc.,CME
+NTES,"NetEase, Inc.",NTES
+ENB,Enbridge Inc,ENB
+ATVI,"Activision Blizzard, Inc",ATVI
+PBR,Petroleo Brasileiro S.A.- Petro,PBR
+BNS,Bank Nova Scotia Halifax Pfd 3,BNS
+MMC,"Marsh & McLennan Companies, Inc",MMC
+MUFG,"Mitsubishi UFJ Financial Group,",MUFG
+GPN,Global Payments Inc.,GPN
+ICE,Intercontinental Exchange Inc.,ICE
+ADSK,"Autodesk, Inc.",ADSK
+VRTX,Vertex Pharmaceuticals Incorpor,VRTX
+ABB,ABB Ltd,ABB
+PGR,Progressive Corporation (The),PGR
+REGN,"Regeneron Pharmaceuticals, Inc.",REGN
+WDAY,"Workday, Inc.",WDAY
+PNC,"PNC Financial Services Group, I",PNC
+TAK,Takeda Pharmaceutical Company L,TAK
+HUM,Humana Inc.,HUM
+EW,Edwards Lifesciences Corporatio,EW
+RACE,Ferrari N.V.,RACE
+DG,Dollar General Corporation,DG
+NOC,Northrop Grumman Corporation,NOC
+UBS,UBS Group AG Registered,UBS
+MCO,Moody's Corporation,MCO
+DELL,Dell Technologies Inc.,DELL
+HCA,"HCA Healthcare, Inc.",HCA
+CEO,CNOOC Limited,CEO
+WM,"Waste Management, Inc.",WM
+ITUB,Itau Unibanco Banco Holding SA,ITUB
+ADI,"Analog Devices, Inc.",ADI
+TEAM,Atlassian Corporation Plc,TEAM
+NEM,Newmont Corporation,NEM
+BSX,Boston Scientific Corporation,BSX
+EQNR,Equinor ASA,EQNR
+HMC,"Honda Motor Company, Ltd.",HMC
+KMB,Kimberly-Clark Corporation,KMB
+TWLO,Twilio Inc.,TWLO
+SPOT,Spotify Technology S.A.,SPOT
+AMX,"America Movil, S.A.B. de C.V. A",AMX
+ETN,"Eaton Corporation, PLC",ETN
+AON,Aon plc,AON
+PHG,Koninklijke Philips N.V. NY Reg,PHG
+BIDU,"Baidu, Inc.",BIDU
+EMR,Emerson Electric Company,EMR
+BMO,Bank Of Montreal,BMO
+GLD,SPDR Gold Trust,GLD
+DD,"DuPont de Nemours, Inc.",DD
+RELX,RELX PLC PLC,RELX
+CP,Canadian Pacific Railway Limite,CP
+IBN,ICICI Bank Limited,IBN
+PUK,Prudential Public Limited Compa,PUK
+SAN,"Banco Santander, S.A. Sponsored",SAN
+LULU,lululemon athletica inc.,LULU
+TAL,TAL Education Group,TAL
+ABEV,Ambev S.A.,ABEV
+MNST,Monster Beverage Corporation,MNST
+ILMN,"Illumina, Inc.",ILMN
+NGG,"National Grid Transco, PLC Nati",NGG
+SCCO,Southern Copper Corporation,SCCO
+VOD,Vodafone Group Plc,VOD
+GD,General Dynamics Corporation,GD
+ROP,"Roper Technologies, Inc.",ROP
+GOLD,Barrick Gold Corporation,GOLD
+LVS,Las Vegas Sands Corp.,LVS
+COP,ConocoPhillips,COP
+NXPI,NXP Semiconductors N.V.,NXPI
+EPD,Enterprise Products Partners L.,EPD
+RKT,"Rocket Companies, Inc.",RKT
+KDP,Keurig Dr Pepper Inc.,KDP
+SMFG,Sumitomo Mitsui Financial Group,SMFG
+EXC,Exelon Corporation,EXC
+LHX,"L3Harris Technologies, Inc.",LHX
+VEEV,Veeva Systems Inc.,VEEV
+DOW,Dow Inc.,DOW
+MET,"MetLife, Inc.",MET
+AEP,American Electric Power Company,AEP
+PINS,"Pinterest, Inc.",PINS
+CTSH,Cognizant Technology Solutions ,CTSH
+BX,Blackstone Inc.,BX
+DOCU,"DocuSign, Inc.",DOCU
+ERIC,Ericsson,ERIC
+BAX,Baxter International Inc.,BAX
+DLR,"Digital Realty Trust, Inc.",DLR
+PSA,Public Storage,PSA
+TRI,Thomson Reuters Corp,TRI
+TRP,TC Energy Corporation,TRP
+STZ,"Constellation Brands, Inc.",STZ
+MAR,Marriott International,MAR
+ROST,"Ross Stores, Inc.",ROST
+BCE,"BCE, Inc.",BCE
+IDXX,"IDEXX Laboratories, Inc.",IDXX
+CVNA,Carvana Co.,CVNA
+KHC,The Kraft Heinz Company,KHC
+COF,Capital One Financial Corporati,COF
+BBD,Banco Bradesco Sa,BBD
+CTAS,Cintas Corporation,CTAS
+APH,Amphenol Corporation,APH
+GIS,"General Mills, Inc.",GIS
+LU,Lufax Holding Ltd,LU
+TTD,"The Trade Desk, Inc.",TTD
+KLAC,KLA Corporation,KLAC
+SRE,DBA Sempra,SRE
+BIIB,Biogen Inc.,BIIB
+CM,Canadian Imperial Bank of Comme,CM
+CNC,Centene Corporation,CNC
+TEL,TE Connectivity Ltd. New Switze,TEL
+MRNA,"Moderna, Inc.",MRNA
+SYY,Sysco Corporation,SYY
+CMG,"Chipotle Mexican Grill, Inc.",CMG
+XEL,Xcel Energy Inc.,XEL
+PLTR,Palantir Technologies Inc.,PLTR
+ING,"ING Group, N.V.",ING
+CSGP,"CoStar Group, Inc.",CSGP
+TT,Trane Technologies plc,TT
+MTCH,"Match Group, Inc.",MTCH
+F,Ford Motor Company,F
+EA,Electronic Arts Inc.,EA
+ALGN,"Align Technology, Inc.",ALGN
+TWTR,"Twitter, Inc.",TWTR
+XPEV,XPeng Inc.,XPEV
+PH,Parker-Hannifin Corporation,PH
+CMI,Cummins Inc.,CMI
+EBAY,eBay Inc.,EBAY
+MFG,"Mizuho Financial Group, Inc. Sp",MFG
+LYG,Lloyds Banking Group Plc,LYG
+A,"Agilent Technologies, Inc.",A
+BK,The Bank of New York Mellon Cor,BK
+CARR,Carrier Global Corporation,CARR
+E,ENI S.p.A.,E
+TRV,"The Travelers Companies, Inc.",TRV
+PPG,"PPG Industries, Inc.",PPG
+SNPS,"Synopsys, Inc.",SNPS
+U,Unity Software Inc.,U
+VRSK,"Verisk Analytics, Inc.",VRSK
+MSCI,MSCI Inc,MSCI
+AIG,"American International Group, I",AIG
+MCHP,Microchip Technology Incorporat,MCHP
+VFC,V.F. Corporation,VFC
+PAYX,"Paychex, Inc.",PAYX
+JCI,Johnson Controls International ,JCI
+SBAC,SBA Communications Corporation,SBAC
+HTHT,H World Group Limited,HTHT
+WBA,"Walgreens Boots Alliance, Inc.",WBA
+ORLY,"O'Reilly Automotive, Inc.",ORLY
+ORAN,Orange,ORAN
+KMI,"Kinder Morgan, Inc.",KMI
+BCS,Barclays PLC,BCS
+STM,STMicroelectronics N.V.,STM
+IQV,"IQVIA Holdings, Inc.",IQV
+ROKU,"Roku, Inc.",ROKU
+MFC,Manulife Financial Corporation,MFC
+TDG,Transdigm Group Incorporated,TDG
+SPLK,Splunk Inc.,SPLK
+RSG,"Republic Services, Inc.",RSG
+YUM,"Yum! Brands, Inc.",YUM
+DXCM,"DexCom, Inc.",DXCM
+TROW,"T. Rowe Price Group, Inc.",TROW
+CRWD,"CrowdStrike Holdings, Inc.",CRWD
+CDNS,"Cadence Design Systems, Inc.",CDNS
+SGEN,Seagen Inc.,SGEN
+PCAR,PACCAR Inc.,PCAR
+APTV,Aptiv PLC,APTV
+HSY,The Hershey Company,HSY
+CRH,CRH PLC,CRH
+PTON,"Peloton Interactive, Inc.",PTON
+ALC,Alcon Inc.,ALC
+BBY,"Best Buy Co., Inc.",BBY
+LI,Li Auto Inc.,LI
+AFL,AFLAC Incorporated,AFL
+RMD,ResMed Inc.,RMD
+FCX,"Freeport-McMoRan, Inc.",FCX
+ALL,Allstate Corporation (The),ALL
+ZBH,"Zimmer Biomet Holdings, Inc.",ZBH
+ES,Eversource Energy (D/B/A),ES
+WEC,"WEC Energy Group, Inc.",WEC
+PRU,"Prudential Financial, Inc.",PRU
+CHT,"Chunghwa Telecom Co., Ltd.",CHT
+SWK,"Stanley Black & Decker, Inc.",SWK
+OKTA,"Okta, Inc.",OKTA
+MRVL,"Marvell Technology, Inc.",MRVL
+CS,Credit Suisse Group,CS
+PEG,Public Service Enterprise Group,PEG
+ROK,"Rockwell Automation, Inc.",ROK
+MSI,"Motorola Solutions, Inc.",MSI
+OTIS,Otis Worldwide Corporation,OTIS
+HLT,Hilton Worldwide Holdings Inc.,HLT
+AWK,"American Water Works Company, I",AWK
+LBRDA,Liberty Broadband Corporation,LBRDA
+BBVA,Banco Bilbao Vizcaya Argentaria,BBVA
+HPQ,HP Inc.,HPQ
+SLB,Schlumberger N.V.,SLB
+BSBR,Banco Santander Brasil SA,BSBR
+WCN,"Waste Connections, Inc.",WCN
+ANSS,"ANSYS, Inc.",ANSS
+GLW,Corning Incorporated,GLW
+PANW,"Palo Alto Networks, Inc.",PANW
+TDOC,"Teladoc Health, Inc.",TDOC
+MCK,McKesson Corporation,MCK
+FAST,Fastenal Company,FAST
+CTVA,"Corteva, Inc.",CTVA
+CHWY,"Chewy, Inc.",CHWY
+TME,Tencent Music Entertainment Gro,TME
+LYB,LyondellBasell Industries NV,LYB
+DHI,"D.R. Horton, Inc.",DHI
+MTD,"Mettler-Toledo International, I",MTD
+SIRI,Sirius XM Holdings Inc.,SIRI
+ADM,Archer-Daniels-Midland Company,ADM
+WELL,Welltower Inc.,WELL
+LUV,Southwest Airlines Company,LUV
+AME,"AMETEK, Inc.",AME
+FMX,Fomento Economico Mexicano S.A.,FMX
+DDOG,"Datadog, Inc.",DDOG
+HRL,Hormel Foods Corporation,HRL
+CPRT,"Copart, Inc.",CPRT
+PSX,Phillips 66,PSX
+RNG,"Ringcentral, Inc.",RNG
+EOG,"EOG Resources, Inc.",EOG
+AZO,"AutoZone, Inc.",AZO
+SLF,Sun Life Financial Inc.,SLF
+BGNE,"BeiGene, Ltd.",BGNE
+WIT,Wipro Limited,WIT
+RPRX,Royalty Pharma plc,RPRX
+ED,"Consolidated Edison, Inc.",ED
+ZG,"Zillow Group, Inc.",ZG
+CLX,Clorox Company (The),CLX
+NTR,Nutrien Ltd.,NTR
+MPC,Marathon Petroleum Corporation,MPC
+KR,Kroger Company (The),KR
+YUMC,"Yum China Holdings, Inc.",YUMC
+CNQ,Canadian Natural Resources Limi,CNQ
+DTE,DTE Energy Company,DTE
+NWG,NatWest Group plc,NWG
+FMS,Fresenius Medical Care AG,FMS
+W,Wayfair Inc.,W
+SPG,"Simon Property Group, Inc.",SPG
+WMB,"Williams Companies, Inc. (The)",WMB
+MKC,"McCormick & Company, Incorporat",MKC
+STT,State Street Corporation,STT
+PCG,Pacific Gas & Electric Co.,PCG
+FNV,Franco-Nevada Corporation,FNV
+TU,Telus Corporation,TU
+DAL,"Delta Air Lines, Inc.",DAL
+ODFL,"Old Dominion Freight Line, Inc.",ODFL
+EIX,Edison International,EIX
+FTV,Fortive Corporation,FTV
+DIA,SPDR Dow Jones Industrial Avera,DIA
+AVB,"AvalonBay Communities, Inc.",AVB
+GMAB,Genmab A/S,GMAB
+DFS,Discover Financial Services,DFS
+SU,Suncor Energy  Inc.,SU
+LEN,Lennar Corporation,LEN
+RCI,"Rogers Communication, Inc.",RCI
+SWKS,"Skyworks Solutions, Inc.",SWKS
+IBKR,"Interactive Brokers Group, Inc.",IBKR
+BNTX,BioNTech SE,BNTX
+FRC,FIRST REPUBLIC BANK,FRC
+TSN,"Tyson Foods, Inc.",TSN
+GWW,"W.W. Grainger, Inc.",GWW
+PAYC,"Paycom Software, Inc.",PAYC
+VRSN,"VeriSign, Inc.",VRSN
+PPL,PPL Corporation,PPL
+EC,Ecopetrol S.A.,EC
+DLTR,"Dollar Tree, Inc.",DLTR
+K,Kellogg Company,K
+XP,XP Inc.,XP
+COUP,Coupa Software Incorporated,COUP
+TLK,"PT Telekomunikasi Indonesia, Tb",TLK
+AJG,Arthur J. Gallagher & Co.,AJG
+EQR,Equity Residential,EQR
+MPLX,MPLX LP,MPLX
+ARE,Alexandria Real Estate Equities,ARE
+KEYS,Keysight Technologies Inc.,KEYS
+YNDX,Yandex N.V.,YNDX
+DB,Deutsche Bank AG,DB
+KKR,KKR & Co. Inc.,KKR
+GRMN,Garmin Ltd.,GRMN
+ETR,Entergy Corporation,ETR
+MDY,SPDR MidCap Trust Series I,MDY
+FLT,"FleetCor Technologies, Inc.",FLT
+WY,Weyerhaeuser Company,WY
+NOK,Nokia Corporation Sponsored,NOK
+TEF,Telefonica SA,TEF
+O,Realty Income Corporation,O
+CHD,"Church & Dwight Company, Inc.",CHD
+AMP,"Ameriprise Financial, Inc.",AMP
+STNE,StoneCo Ltd.,STNE
+EFX,"Equifax, Inc.",EFX
+VLO,Valero Energy Corporation,VLO
+ABC,AmerisourceBergen Corporation,ABC
+WST,"West Pharmaceutical Services, I",WST
+ANET,"Arista Networks, Inc.",ANET
+NDAQ,"Nasdaq, Inc.",NDAQ
+RYAAY,Ryanair Holdings plc,RYAAY
+MKTX,"MarketAxess Holdings, Inc.",MKTX
+NET,"Cloudflare, Inc.",NET
+BILI,Bilibili Inc.,BILI
+TCOM,Trip.com Group Limited,TCOM
+CBRE,CBRE Group Inc,CBRE
+CCEP,Coca-Cola Europacific Partners ,CCEP
+NTRS,Northern Trust Corporation,NTRS
+AEE,Ameren Corporation,AEE
+LH,Laboratory Corporation of Ameri,LH
+IP,International Paper Company,IP
+DKNG,DraftKings Inc.,DKNG
+CAJ,"Canon, Inc.",CAJ
+ZBRA,Zebra Technologies Corporation,ZBRA
+TTWO,"Take-Two Interactive Software, ",TTWO
+FTNT,"Fortinet, Inc.",FTNT
+CCL,Carnival Corporation,CCL
+CDW,CDW Corporation,CDW
+BKR,Baker Hughes Company,BKR
+FTS,Fortis Inc.,FTS
+EPAM,"EPAM Systems, Inc.",EPAM
+AMCR,Amcor plc,AMCR
+IX,Orix Corp,IX
+CQP,"Cheniere Energy Partners, LP Ch",CQP
+VMC,Vulcan Materials Company (Holdi,VMC
+ROL,"Rollins, Inc.",ROL
+IR,Ingersoll Rand Inc.,IR
+FITB,Fifth Third Bancorp,FITB
+ZS,"Zscaler, Inc.",ZS
+SIVB,SVB Financial Group,SIVB
+WPM,Wheaton Precious Metals Corp,WPM
+VTR,"Ventas, Inc.",VTR
+MGA,"Magna International, Inc.",MGA
+QSR,Restaurant Brands International,QSR
+GIB,CGI Inc.,GIB
+HOLX,"Hologic, Inc.",HOLX
+TRU,TransUnion,TRU
+ATUS,"Altice USA, Inc.",ATUS
+INCY,Incyte Corporation,INCY
+DISH,DISH Network Corporation,DISH
+DOV,Dover Corporation,DOV
+COO,"The Cooper Companies, Inc.",COO
+JHX,James Hardie Industries plc,JHX
+TER,"Teradyne, Inc.",TER
+CAG,"ConAgra Brands, Inc.",CAG
+GRFS,"Grifols, S.A.",GRFS
+SSNC,"SS&C Technologies Holdings, Inc",SSNC
+SYF,Synchrony Financial,SYF
+EXPE,"Expedia Group, Inc.",EXPE
+PODD,Insulet Corporation,PODD
+CMS,CMS Energy Corporation,CMS
+TFX,Teleflex Incorporated,TFX
+IAU,iShares Gold Trust Shares of th,IAU
+MT,Arcelor Mittal NY Registry Shar,MT
+BIO,"Bio-Rad Laboratories, Inc.",BIO
+BEPC,Brookfield Renewable Corporatio,BEPC
+CTLT,"Catalent, Inc.",CTLT
+SNN,"Smith & Nephew SNATS, Inc.",SNN
+EXAS,Exact Sciences Corporation,EXAS
+XYL,Xylem Inc.,XYL
+PKX,POSCO Holdings Inc.,PKX
+ETSY,"Etsy, Inc.",ETSY
+BR,"Broadridge Financial Solutions,",BR
+GDS,GDS Holdings Limited,GDS
+HUBS,"HubSpot, Inc.",HUBS
+QRVO,"Qorvo, Inc.",QRVO
+TYL,"Tyler Technologies, Inc.",TYL
+CHKP,Check Point Software Technologi,CHKP
+RCL,D/B/A Royal Caribbean Cruises L,RCL
+HEI,Heico Corporation,HEI
+ZI,ZoomInfo Technologies Inc.,ZI
+STE,STERIS plc (Ireland),STE
+IQ,"iQIYI, Inc.",IQ
+ESS,"Essex Property Trust, Inc.",ESS
+HIG,Hartford Financial Services Gro,HIG
+DGX,Quest Diagnostics Incorporated,DGX
+MLM,"Martin Marietta Materials, Inc.",MLM
+AKAM,"Akamai Technologies, Inc.",AKAM
+ET,Energy Transfer LP,ET
+PEAK,"Healthpeak Properties, Inc.",PEAK
+FOXA,Fox Corporation,FOXA
+KB,KB Financial Group Inc,KB
+AEM,Agnico Eagle Mines Limited,AEM
+LSXMA,Liberty Media Corporation - Ser,LSXMA
+ENPH,"Enphase Energy, Inc.",ENPH
+NUE,Nucor Corporation,NUE
+PXD,Pioneer Natural Resources Compa,PXD
+VIPS,Vipshop Holdings Limited,VIPS
+INVH,Invitation Homes Inc.,INVH
+HZNP,Horizon Therapeutics Public Lim,HZNP
+NVR,"NVR, Inc.",NVR
+URI,"United Rentals, Inc.",URI
+CE,Celanese Corporation Celanese C,CE
+KMX,CarMax Inc,KMX
+FTCH,Farfetch Limited,FTCH
+ULTA,"Ulta Beauty, Inc.",ULTA
+SHG,Shinhan Financial Group Co Ltd,SHG
+MTB,M&T Bank Corporation,MTB
+BURL,"Burlington Stores, Inc.",BURL
+AVTR,"Avantor, Inc.",AVTR
+CAH,"Cardinal Health, Inc.",CAH
+UI,Ubiquiti Inc.,UI
+TSCO,Tractor Supply Company,TSCO
+EXPD,Expeditors International of Was,EXPD
+BIP,Brookfield Infrastructure Partn,BIP
+KEY,KeyCorp,KEY
+FE,FirstEnergy Corp.,FE
+NMR,Nomura Holdings Inc,NMR
+DPZ,Domino's Pizza Inc,DPZ
+BXP,"Boston Properties, Inc.",BXP
+SKM,"SK Telecom Co., Ltd.",SKM
+SUI,"Sun Communities, Inc.",SUI
+MDB,"MongoDB, Inc.",MDB
+FMC,FMC Corporation,FMC
+CPB,Campbell Soup Company,CPB
+CTXS,"Citrix Systems, Inc.",CTXS
+RF,Regions Financial Corporation,RF
+IEX,IDEX Corporation,IEX
+ZEN,"Zendesk, Inc.",ZEN
+WMG,Warner Music Group Corp.,WMG
+GDRX,"GoodRx Holdings, Inc.",GDRX
+TXG,"10x Genomics, Inc.",TXG
+OKE,"ONEOK, Inc.",OKE
+BKI,"Black Knight, Inc.",BKI
+PKI,"PerkinElmer, Inc.",PKI
+VIV,Telefonica Brasil S.A.,VIV
+NICE,NICE Ltd,NICE
+EXR,Extra Space Storage Inc,EXR
+MAS,Masco Corporation,MAS
+HES,Hess Corporation,HES
+AGR,"Avangrid, Inc.",AGR
+TRMB,Trimble Inc.,TRMB
+MAA,Mid-America Apartment Communiti,MAA
+TDY,Teledyne Technologies Incorpora,TDY
+PAGS,PagSeguro Digital Ltd.,PAGS
+DRE,Duke Realty Corporation,DRE
+CDAY,Ceridian HCM Holding Inc.,CDAY
+ALNY,"Alnylam Pharmaceuticals, Inc.",ALNY
+STX,Seagate Technology Holdings PLC,STX
+WIX,Wix.com Ltd.,WIX
+DRI,"Darden Restaurants, Inc.",DRI
+LDOS,"Leidos Holdings, Inc.",LDOS
+LYV,"Live Nation Entertainment, Inc.",LYV
+CNHI,CNH Industrial N.V.,CNHI
+ACGL,Arch Capital Group Ltd.,ACGL
+HAL,Halliburton Company,HAL
+GPC,Genuine Parts Company,GPC
+JBHT,"J.B. Hunt Transport Services, I",JBHT
+MPWR,"Monolithic Power Systems, Inc.",MPWR
+WAT,Waters Corporation,WAT
+CFG,"Citizens Financial Group, Inc.",CFG
+UMC,United Microelectronics Corpora,UMC
+FICO,Fair Isaac Corproation,FICO
+ELAN,Elanco Animal Health Incorporat,ELAN
+LNG,"Cheniere Energy, Inc.",LNG
+MKL,Markel Corporation,MKL
+LOGI,Logitech International S.A. - R,LOGI
+AES,The AES Corporation,AES
+VICI,VICI Properties Inc.,VICI
+AVLR,"Avalara, Inc.",AVLR
+WAB,Westinghouse Air Brake Technolo,WAB
+CUK,Carnival Plc,CUK
+J,Jacobs Engineering Group Inc.,J
+CZR,"Caesars Entertainment, Inc.",CZR
+BMRN,BioMarin Pharmaceutical Inc.,BMRN
+GNRC,Generac Holdlings Inc.,GNRC
+POOL,Pool Corporation,POOL
+IT,"Gartner, Inc.",IT
+MASI,Masimo Corporation,MASI
+HPE,Hewlett Packard Enterprise Comp,HPE
+BRO,"Brown & Brown, Inc.",BRO
+MGM,MGM Resorts International,MGM
+PFG,Principal Financial Group Inc,PFG
+ALB,Albemarle Corporation,ALB
+CVAC,CureVac N.V.,CVAC
+TW,Tradeweb Markets Inc.,TW
+SJM,J.M. Smucker Company (The) New,SJM
+ZNH,China Southern Airlines Company,ZNH
+PBA,Pembina Pipeline Corp.,PBA
+LBTYA,Liberty Global plc,LBTYA
+LNT,Alliant Energy Corporation,LNT
+EMN,Eastman Chemical Company,EMN
+CCK,"Crown Holdings, Inc.",CCK
+WDC,Western Digital Corporation,WDC
+GDDY,GoDaddy Inc.,GDDY
+OMC,Omnicom Group Inc.,OMC
+CNP,"CenterPoint Energy, Inc (Holdin",CNP
+SUZ,Suzano S.A.,SUZ
+NVCR,NovoCure Limited,NVCR
+CHRW,"C.H. Robinson Worldwide, Inc.",CHRW
+LYFT,"Lyft, Inc.",LYFT
+IMO,Imperial Oil Limited,IMO
+ERIE,Erie Indemnity Company,ERIE
+CINF,Cincinnati Financial Corporatio,CINF
+HAS,"Hasbro, Inc.",HAS
+SEDG,"SolarEdge Technologies, Inc.",SEDG
+CGNX,Cognex Corporation,CGNX
+OXY,Occidental Petroleum Corporatio,OXY
+ARGX,argenx SE,ARGX
+MOH,Molina Healthcare Inc,MOH
+NTCO,Natura &Co Holding S.A.,NTCO
+JKHY,"Jack Henry & Associates, Inc.",JKHY
+PKG,Packaging Corporation of Americ,PKG
+AVY,Avery Dennison Corporation,AVY
+YSG,Yatsen Holding Limited,YSG
+ABMD,"ABIOMED, Inc.",ABMD
+KEP,Korea Electric Power Corporatio,KEP
+RJF,"Raymond James Financial, Inc.",RJF
+EVRG,"Evergy, Inc.",EVRG
+HBAN,Huntington Bancshares Incorpora,HBAN
+BAH,Booz Allen Hamilton Holding Cor,BAH
+ENTG,"Entegris, Inc.",ENTG
+WPC,W. P. Carey Inc. REIT,WPC
+FDS,FactSet Research Systems Inc.,FDS
+DVA,DaVita Inc.,DVA
+WHR,Whirlpool Corporation,WHR
+IEP,Icahn Enterprises L.P. - Deposi,IEP
+WPP,WPP plc,WPP
+ATO,Atmos Energy Corporation,ATO
+IFF,International Flavors & Fragran,IFF
+CABO,"Cable One, Inc.",CABO
+UAL,"United Airlines Holdings, Inc.",UAL
+ATHM,Autohome Inc.,ATHM
+IAC,IAC Inc.,IAC
+FBHS,"Fortune Brands Home & Security,",FBHS
+L,Loews Corporation,L
+RUN,Sunrun Inc.,RUN
+SQM,Sociedad Quimica y Minera S.A.,SQM
+NDSN,Nordson Corporation,NDSN
+PHM,"PulteGroup, Inc.",PHM
+DNB,"Dun & Bradstreet Holdings, Inc.",DNB
+TECH,Bio-Techne Corp,TECH
+WRB,W.R. Berkley Corporation,WRB
+PTC,PTC Inc.,PTC
+CRL,Charles River Laboratories Inte,CRL
